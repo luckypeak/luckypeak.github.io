@@ -8,11 +8,11 @@ subtitle:
 description:
 author: luckypeak
 language: zh-Hans
-timezone: CN
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://luckypeak.github.io
+url: https://luckypeak.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -63,10 +63,15 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/luckypeak/luckypeak.github.io
+  repo: git@github.com:luckypeak/luckypeak.github.io.git
+
+
+search:
+  path: search.xml
+  field: post
