@@ -70,7 +70,7 @@ theme: next
 deploy:
   type: git
   repo: git@github.com:luckypeak/luckypeak.github.io.git
-
+  branch: master
 
 search:
   path: search.xml

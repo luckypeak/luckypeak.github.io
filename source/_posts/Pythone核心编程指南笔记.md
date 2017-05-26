@@ -2,8 +2,9 @@
 title: Python核心编程指南笔记
 date: 2016-11-18 10:19:00
 tags: 
-    - python
-	- 入门	
+    - Python
+    - 入门
+
 ---
 
 Python核心编程指南学习笔记

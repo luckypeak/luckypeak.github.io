@@ -24,9 +24,24 @@ netstat -ano | findstr "4000"
 ```
  查看端口当前的进程。
 
-或者可以直接使用
+或者可以直接使用 -p 指定端口
 
+```
 hexo s -p 指定端口
+```
 
+## 不同机器使用Hexo
 
+在git建两个分支：
+init分支管理源文件 日常修改可以 git push origin init
+master分支存放网站静态代码。修改_config.yml 修改deploy 分支为master。hexo deploy 到master。
+
+当使用新机器时候，不要直接hexo init。安装下面顺序执行
+	
+```
+git checkout init 
+npm install hexo  
+npm install
+
+```
 
